@@ -395,6 +395,7 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
     fontSize: 30,
     fontWeight: "700",
+    marginLeft: 20,
   },
 
   statusRow: {

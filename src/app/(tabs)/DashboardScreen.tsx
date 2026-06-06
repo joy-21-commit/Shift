@@ -58,7 +58,7 @@ export default function DashboardScreen() {
   if (analytics.totalDrives === 0) {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>SafeDrive Dashboard</Text>
+        <Text style={styles.title}>Shift Dashboard</Text>
 
         <View style={styles.card}>
           <Text style={styles.emptyText}>No driving data available yet.</Text>
@@ -73,7 +73,7 @@ export default function DashboardScreen() {
 
   return (
     <SafeAreaView style={styles.container}>
-      <Text style={styles.title}>Drive</Text>
+      <Text style={styles.title}>Dashboard</Text>
       <ScrollView
         style={styles.container}
         contentContainerStyle={styles.content}
@@ -167,6 +167,7 @@ const styles = StyleSheet.create({
     color: "#FFFFFF",
     fontSize: 32,
     fontWeight: "700",
+    marginLeft: 20,
   },
 
   subtitle: {
